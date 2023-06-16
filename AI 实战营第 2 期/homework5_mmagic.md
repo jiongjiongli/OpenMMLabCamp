@@ -29,9 +29,17 @@ This is a super-high-resolution picture of a beautifully furnished living room c
 
 使用了 [海报制作工具](https://designer.microsoft.com/invite)
 
+
+
 # 开发环境
 
-[Google Colab](./notebooks/homework5_mmagic.ipynb)
+Google Colab
+
+
+
+# Code
+
+[Jupyter Notebook](./notebooks/homework5_mmagic.ipynb)
 
 
 
