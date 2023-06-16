@@ -51,8 +51,8 @@ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.820
 ![mmpose_image](./images/mmpose_predict.png)
 
 ## Video
+<video src="https://github.com/jiongjiongli/OpenMMLabCamp/assets/33146359/ee5a50b4-282c-43bf-8186-1e5f7170e5d4"></video>
 
-[MMPose Video](./videos/mmpose_predict.mp4)
 
 
 
