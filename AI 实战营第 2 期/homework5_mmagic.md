@@ -32,3 +32,12 @@ This is a super-high-resolution picture of a beautifully furnished living room c
 # 开发环境
 
 [Google Colab](./homework5_mmagic.ipynb)
+
+
+
+# 踩坑记录
+
+1. 需要连外网，因为程序运行过程中会自动下载5GB的文件。
+
+2. Google Colab环境下要使用pip或者mim安装mmagic，否则会报mmcv相关的错误。
+
