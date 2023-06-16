@@ -31,7 +31,7 @@ This is a super-high-resolution picture of a beautifully furnished living room c
 
 # 开发环境
 
-[Google Colab](./homework5_mmagic.ipynb)
+[Google Colab](./notebooks/homework5_mmagic.ipynb)
 
 
 
