@@ -53,6 +53,8 @@ Completed train!
 ![Image Inference](./images/mmseg_infer_result.png)
 
 ## Video
+https://github.com/jiongjiongli/OpenMMLabCamp/assets/33146359/fd1e0924-0fb7-4911-bfc5-caf7490f5124
+
 
 
 
