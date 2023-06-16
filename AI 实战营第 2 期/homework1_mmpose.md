@@ -52,4 +52,10 @@ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.820
 
 ## Video
 
-<video src="./videos/mmpose_predict.mp4"></video>
+[MMPose Video](./videos/mmpose_predict.mp4)
+
+
+
+# Train History
+
+[Jupyter notebook](./notebooks/homework1_mmpose.ipynb)
