@@ -56,6 +56,6 @@ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.820
 
 
 
-# Train History
+# Code
 
-[Jupyter notebook](./notebooks/homework1_mmpose.ipynb)
+[Jupyter Notebook](./notebooks/homework1_mmpose.ipynb)
