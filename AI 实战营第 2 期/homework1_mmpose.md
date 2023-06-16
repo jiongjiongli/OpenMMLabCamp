@@ -1,6 +1,6 @@
 
 
-# MMDet Evaluation
+# MMDet Test
 
 ```
 Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.820
@@ -23,7 +23,7 @@ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.820
 
 
 
-# MMPose Evaluation
+# MMPose Test
 
 ```
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] =  0.754
@@ -44,7 +44,7 @@ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.820
 
 
 
-# MMPose Prediction
+# MMPose Inference
 
 ## Image
 
