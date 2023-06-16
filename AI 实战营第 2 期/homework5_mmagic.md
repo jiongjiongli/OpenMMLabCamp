@@ -20,6 +20,15 @@ This is a super-high-resolution picture of a beautifully furnished living room c
 ![Canny 边缘检测图](./images/furnished_house.png)
 
 
+
+# 海报
+
+![海报](./images/furnished_homes_poster.png)
+
+
+
+使用了 [海报制作工具](https://designer.microsoft.com/invite)
+
 # 开发环境
 
 [Google Colab](./homework5_mmagic.ipynb)
