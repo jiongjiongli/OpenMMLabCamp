@@ -60,10 +60,6 @@ https://github.com/jiongjiongli/OpenMMLabCamp/assets/33146359/90ae3a0f-a9d7-4d12
 
 
 
-https://github.com/jiongjiongli/OpenMMLabCamp/assets/33146359/ac43b323-fa04-4ae2-8fdb-749796ae7016
-
-
-
 # Code
 
 [Jupyter Notebook](./notebooks/ homework4_mmseg_watermelon.ipynb)
