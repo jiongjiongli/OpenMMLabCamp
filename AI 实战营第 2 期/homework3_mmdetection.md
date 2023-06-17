@@ -80,6 +80,12 @@ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.723
 
 
 
+# 踩坑记录
+
+本次基本没有什么问题，主要花的时间在环境准备和标注数据转为coco格式，转格式的代码见[这里](https://github.com/jiongjiongli/via_to_coco/blob/main/converter.py)。
+
+
+
 # Drink
 
 ## MMDetection Train
