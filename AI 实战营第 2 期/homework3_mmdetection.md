@@ -158,19 +158,19 @@ DONE (t=0.15s).
 
 ## MMDetection Inference
 
-
+Ignore because file size is too large. View of the file is in [Jupyter Notebook](./notebooks/homework3_mmdetection_drink.ipynb).
 
 
 
 ## Feature Visualization
 
-
+Ignore because file size is too large. View of the file is in [Jupyter Notebook](./notebooks/homework3_mmdetection_drink.ipynb).
 
 
 
 ## Box AM Visualization
 
-
+Ignore because file size is too large. View of the file is in [Jupyter Notebook](./notebooks/homework3_mmdetection_drink.ipynb).
 
 
 
