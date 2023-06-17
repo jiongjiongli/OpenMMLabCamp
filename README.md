@@ -95,13 +95,13 @@ AI 实战营是 OpenMMLab 为提升学生和在职开发者的 AI 实践能力�
 
 | 编号   | 课程                                                         | 作业内容                                                     | 提交                                                         |
 | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 第一次 | [安装MMDetection和MMPose](https://www.bilibili.com/video/BV1Pa4y1g7N7) | [第一次代码作业](https://github.com/open-mmlab/OpenMMLabCamp/issues/83) | [第一次代码课提交](./'AI 实战营第 2 期'/homework1_mmpose.md) |
+| 第一次 | [安装MMDetection和MMPose](https://www.bilibili.com/video/BV1Pa4y1g7N7) | [第一次代码作业](https://github.com/open-mmlab/OpenMMLabCamp/issues/83) | [第一次代码课提交](./AI 实战营第 2 期/homework1_mmpose.md)   |
 |        | [MMDetection三角板目标检测](https://www.bilibili.com/video/BV1Lm4y1879K) |                                                              |                                                              |
 |        | [MMPose、RTMPose三角板关键点检测](https://www.bilibili.com/video/BV12a4y1u7sd) |                                                              |                                                              |
-| 第二次 | [MMPretrain代码课](https://www.bilibili.com/video/BV1Ju4y1Z7ZE/?spm_id_from=333.999.0.0) | [第二次代码作业](https://github.com/open-mmlab/OpenMMLabCamp/issues/118) | [第二次代码课提交](./'AI 实战营第 2 期'/homework2_mmpretrain.md) |
-| 第三次 | [MMDetection代码课](https://www.bilibili.com/video/BV1Tm4y1q7fy/?spm_id_from=333.788&vd_source=cb9b9a034f5bef733c79a7ccc4714e52) | [第三次代码作业](https://github.com/open-mmlab/OpenMMLabCamp/issues/137) | [第三次代码课提交](./'AI 实战营第 2 期'/homework3_mmdetection.md) |
-| 第四次 | [MMSegmentation代码课](https://www.bilibili.com/video/BV1uh411T73q/?spm_id_from=333.999.0.0) | [第四次代码作业](https://github.com/open-mmlab/OpenMMLabCamp/issues/395) | [第四次代码课提交](./'AI 实战营第 2 期'/homework4_mmsegmentation.md) |
-| 第五次 | [玩转AIGC神器MMagic代码课](https://www.bilibili.com/video/BV1gM4y1n7vP/?spm_id_from=333.999.0.0&vd_source=cb9b9a034f5bef733c79a7ccc4714e52) | [第五次代码作业](https://github.com/open-mmlab/OpenMMLabCamp/issues/410) | [第五次代码课提交](./'AI 实战营第 2 期'/homework5_mmagic.md)   |
+| 第二次 | [MMPretrain代码课](https://www.bilibili.com/video/BV1Ju4y1Z7ZE/?spm_id_from=333.999.0.0) | [第二次代码作业](https://github.com/open-mmlab/OpenMMLabCamp/issues/118) | [第二次代码课提交](./AI 实战营第 2 期/homework2_mmpretrain.md) |
+| 第三次 | [MMDetection代码课](https://www.bilibili.com/video/BV1Tm4y1q7fy/?spm_id_from=333.788&vd_source=cb9b9a034f5bef733c79a7ccc4714e52) | [第三次代码作业](https://github.com/open-mmlab/OpenMMLabCamp/issues/137) | [第三次代码课提交](./AI 实战营第 2 期/homework3_mmdetection.md) |
+| 第四次 | [MMSegmentation代码课](https://www.bilibili.com/video/BV1uh411T73q/?spm_id_from=333.999.0.0) | [第四次代码作业](https://github.com/open-mmlab/OpenMMLabCamp/issues/395) | [第四次代码课提交](./AI 实战营第 2 期/homework4_mmsegmentation.md) |
+| 第五次 | [玩转AIGC神器MMagic代码课](https://www.bilibili.com/video/BV1gM4y1n7vP/?spm_id_from=333.999.0.0&vd_source=cb9b9a034f5bef733c79a7ccc4714e52) | [第五次代码作业](https://github.com/open-mmlab/OpenMMLabCamp/issues/410) | [第五次代码课提交](<./AI 实战营第 2 期/homework5_mmagic.md>) |
 
 
 
