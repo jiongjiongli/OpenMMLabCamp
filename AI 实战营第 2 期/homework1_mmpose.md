@@ -1,6 +1,6 @@
 
 
-# MMDet Test
+# MMDetection Test
 
 ```
 Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.820
