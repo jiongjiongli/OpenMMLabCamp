@@ -46,3 +46,9 @@ Testing finished successfully.
 # Code
 
 [Jupyter Notebook](./notebooks/homework2_mmpretrain.ipynb)
+
+
+
+# 踩坑记录
+
+1. 需要连外网，因为程序运行过程中会自动下载文件。

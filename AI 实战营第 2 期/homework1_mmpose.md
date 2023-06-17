@@ -57,3 +57,16 @@ https://github.com/jiongjiongli/OpenMMLabCamp/assets/33146359/ee5a50b4-282c-43bf
 # Code
 
 [Jupyter Notebook](./notebooks/homework1_mmpose.ipynb)
+
+
+
+# 踩坑记录
+
+## 1 视频或图片里的目标太多会引起内存溢出
+
+解决方案：因为模型先把所有目标的热力图生成以后再取最大值，导致占用内存与目标数量成正比。修改代码见 [这里](https://github.com/open-mmlab/mmpose/compare/tutorial2023...jiongjiongli:mmpose:tutorial2023)
+
+## 2 视频或者图片太大导致处理速度很慢
+
+解决方案：提前把视频每一帧或图片resize为较小的值，如 $(512, 512)$
+

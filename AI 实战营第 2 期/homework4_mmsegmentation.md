@@ -64,3 +64,58 @@ https://github.com/jiongjiongli/OpenMMLabCamp/assets/33146359/90ae3a0f-a9d7-4d12
 
 [Jupyter Notebook](./notebooks/homework4_mmseg_watermelon.ipynb)
 
+[Python Code](./code)
+
+
+
+
+
+# 踩坑记录
+
+## 1 Linux系统不能显示中文字体
+
+使用课程中的方法还是没有解决。后来按照知乎的方法 [点击这里](https://zhuanlan.zhihu.com/p/566430362) 解决了。 复制如下：
+
+1. 首先**删除你的缓存**。找到你的缓存
+
+    ```text
+    import matplotlib as mpl
+    print(mpl.get_cachedir())
+    # /Users/xiewenwen/.matplotlib
+    ```
+
+    我的缓存文件夹是：/Users/xiewenwen/.matplotlib
+
+    删除这个缓存文件夹：rm -r /Users/xiewenwen/.matplotlib/*
+
+2. [下载SeiHei.ttf](https://link.zhihu.com/?target=http%3A//129.204.205.246/downloads/SimHei.ttf)字体放入**～/.fonts**目录下。**[点击下载](https://link.zhihu.com/?target=http%3A//129.204.205.246/downloads/SimHei.ttf)**
+
+    或者复制这个链接下载
+
+    ```text
+    http://129.204.205.246/downloads/SimHei.ttf
+    ```
+
+    命令：
+
+    （1）cd ～/.fonts 。如果没有就mkdir ~/.fonts
+
+    （2）wget [http://129.204.205.246/downloads/SimHei.ttf](https://link.zhihu.com/?target=http%3A//129.204.205.246/downloads/SimHei.ttf)
+
+    （3）fc-cache -fv
+
+3. 再执行 **fc-cache -fv** 刷新字体缓存。
+
+## 2 数据集问题
+
+本次课程提供了2种数据集，一种是Mask标注格式（已划分训练集和测试集）。但是这个数据集有2个问题：
+
+1. 数据格式多样：数据集中除了".jpg"格式，还有".png", ".jpeg"格式的数据。但是训练代码只支持一种格式。
+
+2. 图片和对应的标注的mask文件名（去除后缀名后）不一致。分析发现是文件名不规范引起：一些图片文件名中有'.'号，而标注文件直接取了第一个'.'号前的字符串作为文件名，所以只取了一部分的文件名。
+
+于是转而使用了另一种labelme标注格式（没有划分训练集和测试集），并编写了代码实现1) 图像转化为'.jpg'格式，2) 生成标注mask文件，3) 替换文件名避免不规范的文件名引起训练错误，4) 训练集测试集的划分。实现代码见 [这里](https://github.com/jiongjiongli/labelme_to_segment/blob/main/segment_generator.py)。
+
+## 3 背景也是一种标签
+
+标注的背景分类为0，直接作为一种标签训练和推理是最简单的方式。否则如果要训练的时候去掉背景类，则比较麻烦。具体操作就不赘述了，官方文档没有明确怎么做，很久才摸索出来。
